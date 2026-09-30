@@ -1,0 +1,23 @@
+{
+  "name": "discord-leads-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot de Discord que limpia, verifica en WhatsApp y reparte listas de leads.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "baileys": "^7.0.0-rc14",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.4",
+    "libphonenumber-js": "^1.13.14",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
